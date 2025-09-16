@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ordena Ahora</title>
+</head>
+<body>
+    <h1>Ordena Ahora - Pizzería Ratatouille</h1>
+    <nav>
+        <ul>
+        <li><a href="index.html">Inicio</a></li>
+        <li><a href="about.html">Sobre Nosotros</a></li>
+        <li><a href="contact.html">Contacto</a></li>
+        <li><a href="order.html">Ordena Ahora</a></li>
+        <li><a href="pizza-detail.html">Detalles del Menú</a></li>
+        </ul>
+    </nav>
+
+    <h2>Menú de Pizzas</h2>
+    <p>Da clic en el nombre de cualquier pizza para ver sus detalles.</p>
+    <table border="4">
+        <tr>
+            <th>Pizza</th>
+            <th>Descripción</th>
+            <th>Precio</th>
+        </tr>
+        <tr>
+            <td><a href="pizza-detail.html">Pizza Peperroni</a></td>
+            <td>Clásica pizza con pepperoni, queso mozzarella y salsa de tomate.</td>
+            <td>$12.99 EUR</td>
+        </tr>
+        <tr>
+            <td><a href="pizza-detail.html">Pizza Margarita</a></td>
+            <td>Pizza tradicional con tomate, mozzarella fresca y albahaca.</td>
+            <td>$10.99 EUR</td>
+        </tr>
+        <tr>
+            <td><a href="pizza-detail.html">Pizza Hawaiana</a></td>
+            <td>Pizza con jamón, piña, queso mozzarella y salsa de tomate.</td>
+            <td>$13.99 EUR</td>
+        </tr>
+        <tr>
+            <td><a href="pizza-detail.html">Pizza Vegetariana</a></td>
+            <td>Pizza con una variedad de vegetales frescos, queso mozzarella y salsa de tomate.</td>
+            <td>$11.99 EUR</td>
+        </tr>
+        <tr>
+            <td><a href="pizza-detail.html">Pizza Linguini</a></td>
+            <td>Especialidad de la casa con ingredientes gourmet seleccionados por el chef Remy.</td>
+            <td>$15.99 EUR</td>
+        </tr>
+    </table>
+    <h2>Haz tu Pedido</h2>
+    <form>
+        <label>Nombre completo:</label>
+        <br>
+        <input type="text" name="nombre">
+        <br>
+        <label>Correo Electrónico:</label>
+        <br>
+        <input type="text" name="email">
+        <br>
+        <label>Dirección de Entrega:</label>
+        <br>
+        <input type="text" name="direccion">
+        <br><br>
+        <label>Selecciona tu Pizza:</label>
+        <br>
+        <select>
+            <option>Pizza Pepperoni</option>
+            <option>Pizza Margarita</option>
+            <option>Pizza Hawaiana</option>
+            <option>Pizza Vegetariana</option>
+            <option>Pizza Linguini</option>
+        </select>
+        <br><br>
+        <label>Tamaño de la pizza:</label>
+        <br>
+        <input type="radio" name="pequeña"> 
+        <label>Pequeña</label>
+        <br>
+        <input type="radio" name="mediana">
+        <label>Mediana</label>
+        <br>
+        <input type="radio" name="grande">
+        <label>Grande</label> 
+        <br>
+        <label>Ingredientes adicionales:</label>
+        <br>
+        <input type="checkbox" name="extra queso">
+        <label>Extra Queso</label>
+        <br>
+        <input type="checkbox" name="champiñones">
+        <label>Champiñones</label>
+        <br>
+        <input type="checkbox" name="salchichas">
+        <label>Salchichas</label>
+        <br>
+        <input type="checkbox" name="aceitunas">
+        <label>Aceitunas</label>
+        <br><br>
+        <label>Cantidad:</label>
+        <br>
+        <input type="number" min="1" max="10">
+        <br>
+        <label>Comentarios adicionales</label>
+        <br>
+        <textarea name="comments"></textarea>
+        <br><br>
+        <input type="reset" value="Cancelar">
+        <input type="submit" value="Realizar Pedido">
+    </form>
+    <footer>
+        <p>© 2025 Pizzería Ratatouille</p>
+    </footer>
+</body>
+</html>
